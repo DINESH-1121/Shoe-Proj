@@ -49,6 +49,12 @@ nav ul li a:active{
     color: rgb(88, 88, 88);
 }
 
+.cart{
+    height: 29px;
+    width: 30px;
+    margin-top: 10px;
+}
+
 .bg-vid{
     /* position: fixed; */
     right: 0;
