@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Document</title>
+    <title>Login Page</title>
     <style>
       .logo {
         width: 150px;
@@ -16,9 +16,10 @@
         width: 320px;
         text-align: center;
         padding: 40px;
-        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+          rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
       }
-      
+
       .abc {
         display: block;
         height: 38px;
@@ -58,6 +59,10 @@
         margin-left: 5px;
       }
 
+      span a:hover {
+        color: black;
+      }
+
       .parent-container {
         display: flex;
         width: 100vw;
@@ -66,7 +71,7 @@
         align-items: center;
       }
 
-      .btn{
+      .btn {
         height: 38px;
         width: 324px;
         background-color: black;
@@ -74,9 +79,13 @@
         border-radius: 3px;
         font-family: Helvetica;
         font-size: 15px;
-        padding:0 16px;
+        padding: 0 16px;
       }
-      
+      .btn a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 22px;
+      }
     </style>
   </head>
   <body>
@@ -90,7 +99,6 @@
             name="username"
             id="username"
             placeholder="Email address"
-            required
           />
           <input
             class="abc"
@@ -98,20 +106,23 @@
             name="password"
             id="password"
             placeholder="Password"
-            required
           />
           <p class="signed-in">
             <input type="checkbox" name="checkbox" id="checkbox" />Keep me
             Signed in
           </p>
-          <button class="btn">SIGN IN</button>
+          <button class="btn">
+            <a href="../starting_page/starting_page.html">Log in</a>
+          </button>
         </form>
         <p class="terms">
           By logging in, you agree to Nike's <a href="">Privacy Policy</a> and
           <a href="">Terms of Use</a>.
         </p>
         <p>
-          Need an account?<span><a href="../signup_page/sign_up.html">Sign up</a></span>
+          Need an account?<span
+            ><a href="../signup_page/sign_up.html">Sign up</a></span
+          >
         </p>
       </div>
     </div>

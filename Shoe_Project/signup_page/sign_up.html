@@ -47,6 +47,11 @@
         padding: 0 16px;
       }
 
+      .btn a{
+        text-decoration: none;
+        color: white;
+      }
+
       .parent-container{
           width: 100vw;
           height: 100vh;
@@ -59,7 +64,10 @@
         color: #616161;
       }
       span a{
-          color: black;
+        color: grey;          
+      }
+      span a:hover{
+        color: black;
       }
       span{
           margin-left: 5px;
@@ -100,7 +108,7 @@
                 placeholder="Last Name"
               />
               <input class="abc" type="date" name="date" id="date" />
-              <button class="btn">SIGN IN</button>
+              <button class="btn"><a href="../login_page/login_page.html">SIGN IN</a></button>
             </form>
             <p class="login">Aleardy a member?<span><a href="../login_page/login_page.html">Sign in</a></span></p>
         </div>
