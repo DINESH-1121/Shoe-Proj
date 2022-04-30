@@ -38,7 +38,7 @@ nav {
 .container1 {
     background-color: black;
     height: 100vh;
-    width: 100vw;
+    width: 99vw;
 }
 
 nav ul li{
@@ -72,4 +72,70 @@ nav ul li a:active{
 .container2 img{
     width: 98.5vw;
     height: 100vh;
+    width: 99vw;
+}
+
+.content{
+    text-align: center;
+}
+
+.container3{
+    margin-bottom: 30px;
+    width: 99vw;
+}
+
+.container3 h3{
+    font-family: 'Roboto',
+    sans-serif;
+    font-style: italic;
+    font-weight: 800px;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+}
+
+.content img{
+    width: 400px;
+    z-index: 0;
+}
+
+.content img:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.content31 , .content32, .content33{
+    position: relative;
+    z-index: 2;
+}
+
+.para{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+.para p{
+    z-index: 5;
+    color: white;
+    font-weight: bold;
+}
+
+.container4{
+    text-align: center;
+    background-color: #eeebe5;
+    margin-bottom: 2px;
+    width: 99vw;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content1,.content2,.content3{
+    display: inline-block;
+    width: 350px;
 }
