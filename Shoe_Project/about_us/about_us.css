@@ -52,15 +52,15 @@ video{
 .child1 h2{
     font-weight: 400;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 50px;
-    margin-bottom: 20px;
+    font-size: 60px;
+    margin-bottom: 40px;
 }
 
 .child1 p{
         font-family: Helvetica,
         Arial,
         sans-serif;
-        font-size: 20px;
+        font-size: 25px;
         margin-top: 20px;
         margin-bottom: 30px;
 }
