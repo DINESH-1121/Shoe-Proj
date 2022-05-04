@@ -19,16 +19,19 @@
 .child h2{
     font-size: 35px;
     margin-bottom: 30px;
+    text-shadow: 0 0 7px #fff;
 }
 
 .child h3{
     font-size: 70px;
     margin-bottom: 20px;
+    text-shadow: 0 0 7px #fff;
 }
 
 .child p{
     margin-top: 40px;
     font-size: 20px;
+    text-shadow: 0 0 7px #fff;
 }
 
 video{
