@@ -7,8 +7,8 @@
     <title>Document</title>
     <style>
       .logo {
-        width: 150px;
-        margin-bottom: 50px;
+        width: 180px;
+        margin-bottom: 20px;
       }
       body {
         text-align: center;
@@ -57,6 +57,10 @@
         color: white;
       }
 
+      .btn:hover{
+        background-color: rgba(0, 0, 0, 0.847);
+      }
+
       .parent-container {
         width: 100vw;
         height: 100vh;
@@ -84,36 +88,12 @@
       <div class="container">
         <form action="../index.html">
           <img src="../adidas_PNG17.png" class="logo" />
-          <input
-            class="abc"
-            type="text"
-            name="Email"
-            id="email"
-            placeholder="Email address"
-          />
-          <input
-            class="abc"
-            type="text"
-            name="password"
-            id="password"
-            placeholder="Password"
-          />
-          <input
-            class="abc"
-            type="text"
-            name="fname"
-            id="fname"
-            placeholder="First Name"
-          />
-          <input
-            class="abc"
-            type="text"
-            name="lname"
-            id="lname"
-            placeholder="Last Name"
-          />
-          <input class="abc" type="date" name="date" id="date" />
-          <button class="btn"><a href="../index.html">SIGN IN</a></button>
+          <input class="abc" type="text" name="Email" id="email" placeholder="Email address">
+          <input class="abc" type="password" name="password" id="password" placeholder="Password">
+          <input class="abc" type="password" name="cpassword" id="cpassword" placeholder="Repeat Password" />
+          <!-- <input class="abc" type="text" name="lname" id="lname" placeholder="Last Name" /> -->
+          <!-- <input class="abc" type="date" name="date" id="date" /> -->
+          <button class="btn"><a href="../index.html">Register</a></button>
         </form>
         <p class="login">
           Aleardy a member?<span><a href="../index.html">Log in</a></span>

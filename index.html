@@ -61,8 +61,14 @@
         margin-left: 5px;
       }
 
+      span a{
+        text-decoration: none;
+      }
+
+      .terms a:hover,
       span a:hover {
         color: black;
+        text-decoration: underline;
       }
 
       .parent-container {
@@ -76,6 +82,7 @@
       .btn {
         height: 38px;
         width: 324px;
+        margin-top: 15px;
         background-color: black;
         color: #fff;
         border-radius: 3px;
@@ -89,6 +96,9 @@
         color: #fff;
         font-size: 22px;
       }
+      .btn:hover{
+        background-color: rgba(0, 0, 0, 0.847);
+      }
     </style>
   </head>
   <body>
@@ -96,24 +106,8 @@
       <div class="container">
         <img class="logo" src="adidas_PNG17.png" alt="logo" />
         <form action="starting_page/starting_page.html">
-          <input
-            class="abc"
-            type="text"
-            name="username"
-            id="username"
-            placeholder="Email address"
-          />
-          <input
-            class="abc"
-            type="text"
-            name="password"
-            id="password"
-            placeholder="Password"
-          />
-          <p class="signed-in">
-            <input type="checkbox" name="checkbox" id="checkbox" />Keep me
-            Signed in
-          </p>
+          <input class="abc" type="text" name="username" id="username" placeholder="Email address" />
+          <input class="abc" type="password" name="password" id="password" placeholder="Password" />
           <button class="btn">
             <a href="starting_page/starting_page.html">Log in</a>
           </button>
@@ -123,7 +117,7 @@
           <a href="">Terms of Use</a>.
         </p>
         <p>
-          Need an account?<span><a href="signup_page/sign_up.html">Sign up</a></span>
+          Need an account?&nbsp;<span><a href="signup_page/sign_up.html">Register</a></span>
         </p>
       </div>
     </div>
