@@ -13,7 +13,7 @@ body {
 }
 
 nav {
-    width: 100%;
+    width: 99vw;
     height: 60px;
     background-color: rgb(202, 202, 202);
     line-height: 34px;
@@ -75,7 +75,7 @@ nav ul li a:active {
     position: relative;
     margin: 0;
     border: 0;
-    height: 707px;
+    height: 679px;
     width: 99vw;
 }
 
@@ -113,7 +113,7 @@ nav ul li a:active {
 .c2{
     position: absolute;
     color: white;
-    right: 5%;
+    right: 3%;
     top: 25%;
     width: 350px;
     font-size: 30px;
@@ -179,6 +179,13 @@ span{
 .content31 , .content32, .content33{
     position: relative;
     z-index: 2;
+    transition: all 0.3s;
+}
+
+.content31:hover,
+.content32:hover,
+.content33:hover{
+    transform: scale(1.03);
 }
 
 .content31 img,
